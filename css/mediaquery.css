@@ -10,12 +10,25 @@
 /* Vertical */
 @media only screen and (min-device-width: 768px) and (orientation:portrait){
 
+    #contenido{
+        grid-template-columns: 0px repeat(12, 1fr);
+        grid-template-rows: auto 1fr 100px;
+        grid-column-gap: 24px;
+    }
+    /* Subgrid HEADER */
     header{
-        height: 80px;
+        display: grid;
+        grid-template-rows: 80px 300px;
     }
-    footer{
-        height: 200px;
+    nav{
+        background-color: red;
+        grid-row: 1 / 2;
     }
+    .banner{
+        grid-row: 2 / 3;
+        background-color: blue;
+    }
+
 }
 
 /* Horizontal */
