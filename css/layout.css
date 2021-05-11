@@ -1,4 +1,23 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
-
+/* MOBILE FIRST */
+#contenido{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0px repeat(4, 1fr);
+    grid-template-rows: 50px 1fr 100px;
+    grid-column-gap: 16px;
+}
+header{
+    grid-column: 1 / span-1;
+    background-color: red;
+}
+main{
+    grid-column: 1 / span-1;
+    background-color: yellow;
+}
+footer{
+    grid-column: 1 / span-1;
+    background-color: green;
+}

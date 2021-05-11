@@ -1,2 +1,18 @@
 /* CSS GRID */
 /* **************************************************************** */
+
+/* .gridSmartphone{
+    display: grid;
+    grid-template-columns: 0px repeat(4, 1fr) 0px;
+    grid-column-gap: 16px;
+}
+.gridIpad{
+    display: grid;
+    grid-template-columns: 0px repeat(8, 1fr) 0px;
+    grid-column-gap: 24px;
+}
+.gridDesktop{
+    display: grid;
+    grid-template-columns: 0px repeat(12, 1fr) 0px;
+    grid-column-gap: 24px;
+} */
